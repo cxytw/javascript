@@ -1,4 +1,4 @@
-//JavaScript Variables
+// JavaScript Variables
 // It is considered good programming practice to always declare variables before use.
 var x = 5;
 var y = 6;
@@ -10,8 +10,8 @@ var z = x + y;
 const price1 = 5;
 const price2 = 6;
 let total = price1 + price2;
-document.getElementById("demo").innerHTML =
-"The total is: " + total;
+/* document.getElementById("demo").innerHTML =
+"The total is: " + total; */
 
 // When to Use var, let, or const?
 // 1. Always declare variables
