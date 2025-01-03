@@ -127,8 +127,8 @@ var binds to this.
 const x = 10;
 console.log("Accessing variable x (const):", x);
 {
-const x = 2;
-console.log("Accessing variable x in the block (const):", x);
+    const x = 2;
+    console.log("Accessing variable x in the block (const):", x);
 }
 console.log("The outer variable x (const):", x);
 // Here x is 10
@@ -141,17 +141,17 @@ var y = 2;     // Allowed
 const y = 3;   // Not allowed // SyntaxError: Identifier 'y' has already been declared
 console.log("Reassigned variable x (const)", x )
 */
-/*
+/*  
 {
-let z = 2;     // Allowed
-const z = 2;   // Not allowed // SyntaxError: Identifier 'z' has already been declared
-console.log("Reassigned variable z (const)", z )
+    let z = 2;     // Allowed
+    const z = 2;   // Not allowed // SyntaxError: Identifier 'z' has already been declared
+    console.log("Reassigned variable z (const)", z )
 }
 */
 /*
 {
-const o = 2;   // Allowed
-const o = 2;   // Not allowed // SyntaxError: Identifier 'o' has already been declared
+    const o = 2;   // Allowed
+    const o = 2;   // Not allowed // SyntaxError: Identifier 'o' has already been declared
 }
 */
 
