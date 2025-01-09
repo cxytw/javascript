@@ -159,8 +159,8 @@ console.log(typeof("Happy"));
 
 
 // JavaScript Bitwise Operators
-// Bit operators work on 32 bits numbers.
-// Any numeric operand in the operation is converted into a 32 bit number. The result is converted back to a JavaScript number.
+// Bit operators work on 32 bits numbers. JavaScript 會將所有參與位元運算的數字先轉換為 32 位二進位數字。
+// Any numeric operand in the operation is converted into a 32 bit number. The result is converted back to a JavaScript number. 運算的結果仍然會被轉換回一般的 JavaScript 數字格式（十進位）。
 /*
 Operator	Description	            Example	    Same as	     Result	 Decimal
 &			AND	                    5 & 1	    0101 & 0001	 0001	 1
